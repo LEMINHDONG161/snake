@@ -1,4 +1,4 @@
- I = imread('testimage3.png');
+ I = imread('a.png');
 %  % Convert the image to double data type
  I = im2double(I); 
 %  % Show the image and select some points with the mouse (at least 4)
