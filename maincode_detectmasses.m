@@ -1,10 +1,10 @@
- I = imread('a.png');
+ I = imread('c.png');
 %  % Convert the image to double data type
  I = im2double(I); 
 %  % Show the image and select some points with the mouse (at least 4)
 %  %figure, imshow(I); [y,x] = getpts;
-  y=[182 233 251 205 169];
-  x=[163 166 207 248 210];
+   x=[40 50 60 100 130 140 70 ];
+   y=[32 65 120 150 110 50 30 ];
 %  % Make an array with the clicked coordinates
  P=[x(:) y(:)];
 %  % Start Snake Process
