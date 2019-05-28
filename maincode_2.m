@@ -1,7 +1,8 @@
 % Example, GVF:
   I=im2double(imread('testimage6.png'));
-   x=[96 51 98 202 272 280 182 ];
-   y=[63 147 242 262 211 97 59 ];
+ 
+   x=[40 25 49 100 130 140 70 ];
+   y=[32 65 120 131 110 50 30 ];
    P=[x(:) y(:)];
    Options=struct;
    Options.Verbose=true;
